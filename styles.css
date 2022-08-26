@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Righteous&family=Viga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#active{
+    background: #adff2f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img{
+  width: 100vw;
+  height: 80vh;  
+  position: absolute;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-family: 'Righteous';
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid auto;
+}
+
+li :hover{
+    background-color: #fe7777;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS';
+}
+
+ol{
+    text-align: center;
+    font-size: 24px;
+    word-spacing:40px;
+    padding-top: 13px;
+    vertical-align: middle;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    padding-top: 30vh;
+    font-size: 50px;
+    font-family: 'Righteous';
+    color: linear-gradient(30deg, yellow, blue, red);
+}
+
+
+h3{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 10vh;
+}
+
+footer{
+    margin-bottom: 0;
+    width: 100%;
+    height: 20vh;
+    bottom: 0;
+    background-color: black;
+    position: fixed;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Viga';
+}
+
+@media only screen and (max-width: 960px) {
+    body{
+        width: 100%;
+    }
+    ol{
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+
+    footer{
+        margin-bottom: 0;
+        width: 100%;
+        height: 20vh;
+        bottom: 0;
+        background-color: black;
+        position: fixed;
+        font-size: 20px;
+        font-weight: 900;
+    }
+}

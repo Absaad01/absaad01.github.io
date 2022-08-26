@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shotcut icon" href="asSoftware.jpg" type="img/jpg">
+</head>
+<body>
+    <header>
+        <ol>
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="work.html">Work</a></li>
+         <li><a href="About.html">About</a></li>
+         <li><a href="contact.html" id="active">Contact</a></li>
+        </ol>
+     </header>
+    
+     <form action="mailto: abubakaradamu1163@gmail.com"
+     method="post"
+     enctype="text/plain">
+     <label for="senderName">Name</label>
+     <input type="text" oninput="inputted()" name="senderName" placeholder="Your Name Here...">
+     <br>
+     <label for="msgSubject">Subject</label>
+     <input type="text" oninput="inputted()" name="msgSubject" placeholder="Your Message Subject">
+     <br>
+     <label for="msg">Message</label>
+     <textarea name="msg" oninput="textInputted()" cols="30" rows="10" maxlength="200" placeholder="Type your message here..."></textarea>
+     <br>
+     <button id="submit">Send</button>
+    </form>
+
+    <script src="contact.js"></script>
+</body>
+</html>

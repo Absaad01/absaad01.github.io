@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Righteous&family=Viga&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #696969;
+}
+
+#active{
+    background: #adff2f;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+img{
+  width: 100vw;
+  height: 80vh;  
+  position: inherit;
+  float: left;
+  padding: 0 8px;
+}
+
+li{
+    position: relative;
+    list-style: none;
+    display: inline;
+    font-family: 'Righteous';
+}
+
+a{
+    text-decoration: none;
+    border: 1px solid auto;
+}
+
+li :hover{
+    background-color: #fe7777;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS';
+}
+
+ol{
+    text-align: center;
+    font-size: 24px;
+    word-spacing:40px;
+    padding-top: 13px;
+    vertical-align: middle;
+}
+
+form{
+    display: grid;
+    padding: 0 10vw;
+}
+
+input, textarea{
+    border: 2px dashed #adff2f;
+    padding: 5px;
+    font-size: 24px;
+    font-family: 'Viga';
+}
+
+::placeholder{
+    font-size: 24px;
+    color: #adff2f;
+    font-family: 'courgette';
+}
+
+#submit{
+    padding: 5px;
+    font-size: 19px;
+    background-color: #ffffff;
+    color: #adff2f;
+    border: 3px solid #adff2f;
+    font-family: 'Righteous';
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Righteous';
+    font-weight: bold;
+    color: #adff2f;
+    text-shadow: 1px 1px #ffffff;
+}
+
+input:focus{
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid red;
+}
+
+textarea:focus{
+    background-color: #000000;
+    color: #ffffff;
+    outline: none;
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 960px) {
+    body{
+        width: 100%;
+    }
+    ol{
+        word-spacing: 5px;
+        font-size: 30px;
+    }
+    input, textarea{
+        border: 2px dashed #adff2f;
+        padding: 2px;
+        font-size: 15px;
+    }
+    
+    ::placeholder{
+        font-size: 15px;
+        color: #addf2f;
+    }
+}
