@@ -1,1 +1,1 @@
-The following is a task by I4G X Zuri Frontend Developers.
+This Site is being updated continuously. Watch the Space
